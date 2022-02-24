@@ -18,4 +18,11 @@ const verte = prompt('Apibudinkite pasirinkta savybe');
 
 vartotojas[savybe] = verte;
 
+vartotojas.pirktiKebaba = function(){
+    this.pinigine = this.pinigine - 3;
+};
+vartotojas.pirktiKebaba();
+vartotojas.pirktiKebaba();
+vartotojas.pirktiKebaba();
+
 console.log(vartotojas);
